@@ -60,4 +60,25 @@ i) simetria
 j) dimensão fractal ("aproximação da linha costeira" - 1)
 
 
+Requisitos de desenvolvimento para dados sensíveis:
+
+Privacidade
+
+
+Projeto de sistema
+
+Arquitetura de software : Para obter o máximo de provacidade todos os testes das camadas neurais utilizarão o poder de processamento da sua máquina e nenhum dado de pacientes serão enviados aos nossos servidores.(On-device intelligence).
+
+Design da interface do usuário: Para UX, construíremos nas 10 heurísticas de usabilidade de Jakob Nielsen .
+
+Implementação de sistema
+Tecnologias utilizadas:
+
+TensorFlow
+
+Bootstrap
+
+Jquery
+
+
 
