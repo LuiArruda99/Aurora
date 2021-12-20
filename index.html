@@ -74,7 +74,7 @@
             
             
             await model.fitDataset(convertedTrainingData, 
-                             {epochs:3,
+                             {epochs:10,
                               validationData: convertedTestingData,
                               callbacks:{
                                   onEpochEnd: async(epoch, logs) =>{
@@ -228,27 +228,27 @@
     
     <div class="row">
         <div class="col-2">
-            <label>seperimetro</label>
+            <label>perimetro</label>
             <input id="seperimeter" type="number" value="-0.009946784933">
         </div>
         <div class="col-2">
-            <label>seárea</label>
+            <label>área</label>
             <input id="searea" type="number" value="0.09132907804">
         </div>
         <div class="col-2">
-            <label>sesuavidade das bordas</label>
+            <label>suavidade das bordas</label>
             <input id="sesmoothness" type="number" value="-0.5669326934">
         </div>
         <div class="col-2">
-            <label>secompactação</label>
+            <label>ecompactação</label>
             <input id="secompactness" type="number" value="-0.1059561913">
         </div>
         <div class="col-2">
-            <label>secconcavidade</label>
+            <label>ecconcavidade</label>
             <input id="seconcavity" type="number" value="0.3719545727">
         </div>
         <div class="col-2">
-            <label>sepontos de concavidade</label>
+            <label>pontos de concavidade</label>
             <input id="seconcavepoints" type="number" value="0.2637457429">
         </div>
     </div>
@@ -256,11 +256,11 @@
     
     <div class="row">
         <div class="col-2">
-            <label>sesimmetria</label>
+            <label>sesimetria</label>
             <input id="sesymmetry" type="number" value="-0.318201638">
         </div>
         <div class="col-2">
-            <label>sefdimensão fractal</label>
+            <label> pior dimensão fractal</label>
             <input id="sefractaldimension" type="number" value="0.1755797923">
         </div>
         <div class="col-2">
@@ -285,7 +285,7 @@
     
     <div class="row">
         <div class="col-2">
-            <label>wpiores bordas</label>
+            <label>piores bordas</label>
             <input id="worstsmoothness" type="number" value="0.9132726375">
         </div>
         <div class="col-2">
