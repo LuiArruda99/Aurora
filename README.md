@@ -1,6 +1,6 @@
 # Aurora
 
-Rede neural convolucional que prediz o resultado de benignidade ou malignidade  a partir de uma imagem digitalizada de um aspirado por agulha fina (FNA) de uma massa mamária antes do médico analizar.  
+Rede neural convolucional que prediz o resultado de benignidade ou malignidade  a partir de uma imagem digitalizada de um aspirado por agulha fina (FNA) de uma massa mamária.  
 
 Dados de treino:
 
